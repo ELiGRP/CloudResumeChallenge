@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_Lt.ttf);
+}
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_Bd.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_LtIt.ttf);
+    font-style: italic;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #f4f5f6;
+    font-family: Ember;
+    color: #2a2a2a;
+}
+
+h1, h2, h3, h4{
+    line-height: 1;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px 0px 0px 200px;
+    line-height: 1;
+    border-style: solid;
+    border-width: .5px 2px 2px 2px;
+    border-color: lightgray;
+    box-shadow: 0px 1px 1px 0px lightgray;
+    }
+    .header a {
+        color: #232f3e;
+        padding: 5px;
+        text-decoration: none;
+        display: inline;
+    }
+      
+      /* Change color on hover */
+      .header a:hover {
+        background-color: transparent;
+        color: #F96900;
+        font-weight: bold;
+      }
+
+        .header i {
+            font-size: 28px;
+        } 
+        @media screen and (max-width: 600px) {
+            div.header{
+              margin-left: 0px;
+            }
+        }
+
+
+
+
+
+
+.content{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px 0px 0px 200px;
+    line-height: 1;
+    border-style: solid;
+    border-width: .5px 2px 2px 2px;
+    border-color: lightgray;
+    box-shadow: 0px 1px 1px 0px lightgray;
+    }
+
+    .content a {
+        text-decoration: none;
+        color: #0077b6;
+    }
+    .content a :visited{
+        text-decoration: none;
+        color: #0077b6;
+    }
+    .content a:hover {
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 600px) {
+        div.content{
+          margin-left: 0px;
+        }
+    }
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #232f3e;
+    overflow-x: hidden;
+    text-align: center;
+  }
+
+
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: transparent;
+    color: #F96900;
+    font-weight: bold;
+  }
+
+  .sidenav p {
+    color: #FFFFFF;
+    padding: 16px;
+    display: block;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    div.sidenav {
+      display: none;
+    }
+}
+
+
+
+  img{
+      max-width: 50px;
+      max-height: 50px;
+  }
