@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
 	<script src="https://kit.fontawesome.com/989fc3b0e6.js" crossorigin="anonymous"></script>
 	<script>
-		fetch('https://f4tpijzkn4.execute-api.us-east-1.amazonaws.com/default')
+		fetch("https://f4tpijzkn4.execute-api.us-east-1.amazonaws.com/default")
 			.then(response => response.json())
 			.then((data) => {
 				document.getElementById('replaceme').innerText = data.num
@@ -23,8 +23,7 @@
 	<a href="#exp">Experience</a>
 	<a href="#certs">Certifications</a>
 	<a href="#edu">Education</a>
-	<p style="color: white;">Visitors: <span id="replaceme"></span></p>
-	</div>
+</div>
 	
 	<div class="header">
 		<h1>Elijah Douglas</h1>
@@ -32,7 +31,7 @@
 		<a href="https://www.linkedin.com/in/elijah-douglas/"><i class="fa-brands fa-linkedin"></i></a>
 		<a href="https://github.com/ELiGRP"><i class="fa-brands fa-github";></i></a>
 		<a href="ElijahDouglasResume.pdf"><i class="fa-solid fa-file-pdf"></i></a></span>
-		
+		<p style="color: white;">Visitors: <span id="replaceme"></span></p>
 
 
 
