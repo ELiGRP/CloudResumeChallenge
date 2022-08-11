@@ -12,6 +12,9 @@ jobs:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
-          aws-region: us-east-2
+          args: --acl public-read --follow-symlinks --delete
+      env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          aws-region: us-east-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           role-session-name: MySessionName
