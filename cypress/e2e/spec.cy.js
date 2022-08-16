@@ -1,14 +1,12 @@
 describe('My First Test', () => {
-  it('Visits the Kitchen Sink', () => {
+  it('Visits the my website', () => {
     cy.visit('https://elidouglas.com/')
 
-    cy.get('#count')
-      .invoke('text')
-      .then(Number)
-      .then((n) => {
-        cy.reload()
-        // check the incremented value
-        cy.contains('#count', String(n + 1))
-  })
-})
-})
+
+    cy.get('#count').then(($count) => {
+      const num1 = parseFloat($count.text())
+      cy.reload()
+        })
+
+      })
+    })
