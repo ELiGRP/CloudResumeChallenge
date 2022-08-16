@@ -5,11 +5,9 @@ describe('My First Test', () => {
 
     cy.get('#count').then(($count) => {
       const num1 = parseFloat($count.text())
-      cy.reload()
-        .wait(500)
-      cy.get('#count').then(($count) => {
-        const num2 = parseFloat($count.text())
-        })
-        })
-      })
+    
+      expect(num1).to.eq($count)
     })
+  })
+})
+
