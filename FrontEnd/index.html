@@ -10,8 +10,11 @@
 		fetch("https://f4tpijzkn4.execute-api.us-east-1.amazonaws.com/default")
 			.then(response => response.json())
 			.then((data) => {
-				document.getElementById('count').innerText = data.num
-				const mycount = data.num
+				var mycount = data.num
+				document.getElementById("count").innerText = mycount
+				console.log(mycount)
+				
+
 			})
 	</script>
 </head>

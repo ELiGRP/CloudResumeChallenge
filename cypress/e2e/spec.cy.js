@@ -4,6 +4,7 @@ describe('My First Test', () => {
 
     cy.get('#count').then(($count) => {
       const num1 = parseFloat($count.text())
+      cy.log(mycount)
     
   })
 })
