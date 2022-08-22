@@ -5,10 +5,16 @@ terraform {
       version = "~> 3.0"
     }
   }
+  cloud {
+    organization = "elijahdouglas"
+    workspaces {
+      name = "CloudResumeChallenge"
+    }
+  }
 }
 
+
 provider "aws" {
-  shared_credentials_file = "~/.aws/credentials"
   region                  = "us-east-1"
 }
 
