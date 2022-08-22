@@ -11,7 +11,7 @@ describe('My First Test', () => {
       cy.get('#count').then(($count) => {
         const num2 = parseFloat($count.text())
 
-        expect(num2).to.be.greaterThan(num1)
+        expect(num2).to.be.lessThan(num1)
       })
     })
   })
