@@ -27,3 +27,5 @@ jobs:
     - name: Terraform Apply
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: terraform apply -auto-approve -input=false
+    - name: Cypress.io
+      uses: cypress-io/github-action@v4.2.0
