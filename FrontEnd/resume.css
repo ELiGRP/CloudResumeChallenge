@@ -16,14 +16,14 @@
 
 
 body {
-    background-color: #EDF4ED;
+    background-color: #e5e8da;
     font-family: Ember;
     color: black;
 }
 
 
 h1, h2, h3, h4{
-    color: darkslategray;
+    color: #333726;
     line-height: 1;
 }
 
@@ -32,7 +32,7 @@ h4{
 }
 
 .header {
-    background-color: honeydew;
+    background-color: #e9eae3;
     padding: 20px;
     margin: 20px 0px 0px 200px;
     line-height: 1;
@@ -42,7 +42,7 @@ h4{
     box-shadow: 0px 1px 1px 0px lightgray;
     }
     .header a {
-        color: darkslategray;
+        color: #333726;
         padding: 5px;
         text-decoration: none;
         display: inline;
@@ -70,7 +70,7 @@ h4{
 
 
 .content{
-    background-color: honeydew;
+    background-color: #e9eae3;
     padding: 20px;
     margin: 20px 0px 0px 200px;
     line-height: 1;
@@ -109,7 +109,7 @@ h4{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: darkslategray;
+    background-color: #6c7836;
     overflow-x: hidden;
     text-align: center;
   }
