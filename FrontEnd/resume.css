@@ -115,17 +115,24 @@ h4{
     padding: 16px;
     display: block;
   }
+
+  img{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+}
   
   @media screen and (max-width: 600px) {
     div.sidenav {
       display: none;
     }
+
+    img{
+      max-width: 130px;
+      max-height: 130px;
+      padding: 10px;
+    }
 }
 
 
-  img{
-      max-width: 150px;
-      max-height: 150px;
-      padding: 10px;
-  }
   
