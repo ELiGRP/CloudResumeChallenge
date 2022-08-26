@@ -126,13 +126,24 @@ h4{
     div.sidenav {
       display: none;
     }
-
     img{
       max-width: 130px;
       max-height: 130px;
       padding: 10px;
     }
 }
+
+@media screen and (max-width: 400px) {
+  div.sidenav {
+    display: none;
+  }
+  img{
+    max-width: 120px;
+    max-height: 120px;
+    padding: 10px;
+  }
+}
+
 
 
   
