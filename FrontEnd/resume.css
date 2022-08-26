@@ -6,6 +6,13 @@ body {
     color: black;
 }
 
+ul li { padding: 5px 0px; 
+line-height: 1.2;
+}
+
+p{
+  line-height: 1.2;
+}
 
 h1, h2, h3, h4{
     color: #333726;
@@ -14,6 +21,12 @@ h1, h2, h3, h4{
 
 h4{
     font-weight: normal;
+}
+
+img{
+  max-width: 150px;
+  max-height: 150px;
+  padding: 10px;
 }
 
 .header {
@@ -116,11 +129,17 @@ h4{
     display: block;
   }
 
-  img{
-    max-width: 150px;
-    max-height: 150px;
-    padding: 10px;
-}
+  .sidenav img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #59632e;
+    padding: 0%;
+  }
+
+ 
   
   @media screen and (max-width: 600px) {
     div.sidenav {

@@ -18,6 +18,7 @@
 
 <body>
 <div class="sidenav">
+	<img src ="./images/portrait.jpg">
 	<a href="#about-me">About Me</a>
 	<a href="#projects">Projects</a>
 	<a href="#exp">Experience</a>
@@ -46,7 +47,12 @@
 
 		<h3>Cloud Resume Challenge</h3>
 		<h4><i>Original Project - </i><a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/"> Forrest Brazeal, cloudresumechallenge.dev</a></h4>
-		<p style="position: relative;bottom: 10px;"> This site! This is a static website hosted in an AWS S3 bucket and delivered through AWS Cloudfront and Route 53. A "visitor counter" was created using DynamoDB, a Python Lambda script, and an API Gateway. The back end services are stored as IaC using Terraform. A CI/CD pipeline was created using Github Actions. Cypress is used for testing the API and is integrated into the pipeline to ensure everyting works before being deployed. </p>
+		<ul>
+			<li>Created a static website hosted in an AWS S3 bucket with a counter displaying number of visitors</li>
+			<li>Used Terraform to provision back end services consisting of DynamoDB table, Lambda function, and an API Gateway</li>
+			<li>The API is tested through Cypress.io to ensure functionality</li>
+			<li>CI/CD is done through Github Actions</li>
+		</ul>
 	</div>
 
 	<div class ="content" id="exp">
@@ -54,15 +60,29 @@
 
 		<h3>Network Engineer<span style="font-weight: normal;"> | February 2022-Present</span></h3>
 		<h4><i>Abacus Solutions Group</i> - Brunswick, GA</h4>
-		<p style="position: relative;bottom: 10px;">Maintained the network infrastructure for the Federal Law Enforcement Training Center and the Department of Homeland Security. Led the auditing process of over 100 network closets improving our reference documentation and identifying key areas for improvement. </p>
+		<ul>
+			<li>Managed network consisting of Cisco Catalyst 3750 & 3850 switches, Palo Alto Next Gen Firewall</li>
+			<li>Led the auditing process of over a hundred network closets resulting in up-to-date rack elevations and improving our reference documentation with the intent of reducing troubleshooting times</li>
+			<li>Handled help desk ticket escalations for networking related issues.</li>
+			<li>Common day to day tasks include - configuring access ports, tracing network jacks, upgrading switch firmware.</li>
+		</ul>
 
 		<h3>NOC Support Specialist<span style="font-weight: normal;"> | October 2019-February 2022</span></h3>
 		<h4><i>Brantley Telephone Company</i> - Nahunta, GA</h4>
-		<p style="position: relative;bottom: 10px;">Monitored FTTH access network using PRTG to ensure maximum uptime and minimal network bottlenecks. Performed after hours network maintenance to ensure a secure and stable network without causing downtime for customers. </p>
+		<ul>
+			<li>Managed FTTH access network using Calix CMS. </li>
+			<li>Used PRTG to monitor network for any outages or bandwidth over-utilization</li>
+			<li>Configured and installed Calix E7 access nodes to support the growing customer base. </li>
+			<li>Performed PC & laptop repair services for residential customers</li>
+		</ul>
 
 		<h3>Tech Support Specialist<span style="font-weight: normal;"> | August 2017-October 2019</span></h3>
 		<h4><i>Alma Telephone Company</i> - Alma, GA</h4>
-		<p style="position: relative;bottom: 10px;"> Worked on a rotating team to handle tier 1 tech support calls for business and residential customers. Collaborated with the team and utilized shared knowledge to resolve issues in a timely manner. Maintained detailed notes on ticket resolution to contribute to the knowledge base. </p>
+		<ul>
+			<li>Provided tier 1 tech support for internet, phone, and IPTV customers</li>
+			<li>Monitored customers home network through the UNMS managed wifi service</li>
+			<li>Supported businesses through static IP migration</li>
+		</ul>
 	</div>
 
 	<div class = "content" id="certs">
@@ -83,7 +103,10 @@
 		<h2 id="edu">Education</h2>			
 		<h3>B.S Network Operations and Security <span style="font-weight: normal;"> | Graduated - July 2022</span></h3>
 		<h4><i>Western Governors University</i></h4>
-		<p style="position: relative;bottom: 10px;">Core studies focused on Implementation of Network Solutions, Network Security, and Cloud Deployment and Operations.<br> Other courses include Linux Foundations, Introduction to Python, and Data Management Foundations </p>
+		<ul>
+			<li>Core studies focused on Implementation of Network Solutions, Network Security, and Cloud Deployment and Operations</li>
+			<li>Other courses include Linux Foundations, Introduction to Python, and Data Management Foundations</li>
+		</ul>
 		
 	</div>
 	
